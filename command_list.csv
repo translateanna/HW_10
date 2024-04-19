@@ -1,0 +1,16 @@
+   26  git branch develop
+   27  git checkout develop
+   28  git checkout main
+   29  git checkout develop
+   30  touch develop_test.txt
+   31  git add .
+   32  git commit -m "Create develop and develop_test.txt Task 3"
+   33  vim develop_test.txt
+   34  git status
+   35  git commit -m "Create develop and develop_test.txt Task 3 part 2"
+   36  git add .
+   37  git commit -m "Create develop and develop_test.txt Task 3 part 2"
+   38  git checkout main\ngit branch --merged\n
+   39  git merge develop
+   40  git add .
+   41  git log
